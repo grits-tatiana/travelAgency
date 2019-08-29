@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Личный кабинет</title>
+	</head>
+	<body class = "backgr">
+		<header>
+			<div class = "zag">
+				<img src = "icon.png" width = "100">
+			</div>
+			<nav>
+				<div class = "box">
+				<div><p>Страны</p></div>
+				<div><p>Отели</p></div>
+				<div></div>
+				<div></div>
+				<div>
+					<a href="searchHTML.html">Подбор тура</a>
+				</div>
+				<div>
+					<a href="lkHTML.html">Личный кабинет</a> 
+				</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="formsearch">
+				<h2>Подбор тура</h2>
+				<table>
+				<tr>
+				<td>
+				<div>
+					<label>Выберите страну:  </label>
+					<select name="country">
+						<option value="Турция">Турция</option>
+						<option value="Греция">Турция</option>
+						<option value="Испания">Турция</option>
+					</select>
+				</div>
+				<div>
+					<label>Выберите город:  </label>
+					<select name="city">
+						<option value="Анталия">Анталия</option>
+						<option value="Ираклион">Ираклион</option>
+						<option value="Мадрид">Мадрид</option>
+					</select>
+				</div>
+				</td>
+				<td>
+				<div>
+					<label>Выберите отель:  </label>
+					<select name="hotel">
+						<option value="123">Amara Dolce Vita</option>
+						<option value="234">Blue Marine Resort</option>
+					</select>
+				</div>
+				<div>
+					<label>Выберите количество звезд:  </label>
+					<select name="stars">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+				</td>
+				<tr>
+				<td>
+				<div>
+					<label>Введите дату вылета: </label>
+					<input type="datetime" name="datedepart">
+				</div>
+				<div>
+					<label>Введите дату прилета: </label>
+					<input type="datetime" name="datearrive">
+				</div>
+				</td>
+				<td>
+					<div>
+					<label>Выберите тип питания:  </label>
+					<select name="food">
+						<option value="1">BB</option>
+						<option value="2">HB</option>
+						<option value="3">AI</option>
+						<option value="4">UAI</option>
+					</select>
+				</div>
+					<div>
+					<label>Выберите тип размещения:  </label>
+					<select name="accomodation">
+						<option value="1">SGL</option>
+						<option value="2">DBL</option>
+						<option value="3">TRPL</option>
+					</select>
+				</div>
+				</td>
+				</tr>
+				</table>
+				<div>
+					<input type="submit" name="searchtour" value="Найти тур">
+				</div>
+			</div>
+		</main>
+		<footer>
+		<div class="footdiv"><p>2010-2019</p></div>
+		<div class="footdiv"><p>Контакты: 8-910-000-00-00</p></div>
+		</footer>
+	</body>
+</html>
